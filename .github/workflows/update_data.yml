@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     
-     - name: 📥 Baixando o Código
+      - name: 📥 Baixando o Código
         uses: actions/checkout@v4  # <-- Mudou para v4
 
       - name: ⚙️ Preparando o Node.js
