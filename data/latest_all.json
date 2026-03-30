@@ -1,0 +1,33 @@
+{
+  "updated_at": "2026-03-30T23:08:05.505Z",
+  "games": [
+    {
+      "id": "mega_millions",
+      "name": "Mega Millions",
+      "date": "2026-03-27T00:00:00.000",
+      "numbers": [
+        "13",
+        "27",
+        "28",
+        "41",
+        "62"
+      ],
+      "extra": "16",
+      "jackpot": "TBA"
+    },
+    {
+      "id": "cash4life",
+      "name": "Cash4Life",
+      "date": "2026-02-21T00:00:00.000",
+      "numbers": [
+        "20",
+        "25",
+        "30",
+        "52",
+        "55"
+      ],
+      "extra": "04",
+      "jackpot": "$1,000/Day"
+    }
+  ]
+}
