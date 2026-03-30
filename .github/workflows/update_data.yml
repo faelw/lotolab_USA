@@ -1,0 +1,32 @@
+name: Atualizador Lotolab EUA
+
+on:
+  schedule:
+    - cron: '0 11,23 * * *' # Roda duas vezes ao dia
+  workflow_dispatch:      # Botão mágico para você rodar manualmente quando quiser
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Baixando o Código
+        uses: actions/checkout@v3
+
+      - name: ⚙️ Preparando o Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: 📦 Instalando Pacotes
+        run: npm install
+
+      - name: 🚀 Extraindo Loterias e Jackpots
+        run: npm start
+
+      - name: 💾 Salvando JSONs no Repositório
+        run: |
+          git config --local user.email "motor@lotolab.com"
+          git config --local user.name "LotolabWorker"
+          git add data/
+          git commit -m "🔥 Auto-Update: Resultados e Jackpots atualizados" || echo "Nada de novo para salvar"
+          git push
