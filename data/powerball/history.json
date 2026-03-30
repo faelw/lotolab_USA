@@ -1,0 +1,502 @@
+[
+  {
+    "draw_date": "2026-03-28T00:00:00.000",
+    "winning_numbers": "11 42 43 59 61 25",
+    "multiplier": "4"
+  },
+  {
+    "draw_date": "2026-03-25T00:00:00.000",
+    "winning_numbers": "07 21 55 56 64 26",
+    "multiplier": "4"
+  },
+  {
+    "draw_date": "2026-03-23T00:00:00.000",
+    "winning_numbers": "12 18 47 56 63 01",
+    "multiplier": "10"
+  },
+  {
+    "draw_date": "2026-03-21T00:00:00.000",
+    "winning_numbers": "12 28 36 41 59 02",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-03-18T00:00:00.000",
+    "winning_numbers": "14 18 19 21 69 01",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2026-03-16T00:00:00.000",
+    "winning_numbers": "07 10 20 47 52 20",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-03-14T00:00:00.000",
+    "winning_numbers": "09 30 42 50 52 21",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2026-03-11T00:00:00.000",
+    "winning_numbers": "03 06 55 58 63 12",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-03-09T00:00:00.000",
+    "winning_numbers": "22 23 28 36 54 13",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2026-03-07T00:00:00.000",
+    "winning_numbers": "17 18 30 50 68 24",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2026-03-04T00:00:00.000",
+    "winning_numbers": "07 14 42 47 56 06",
+    "multiplier": "4"
+  },
+  {
+    "draw_date": "2026-03-02T00:00:00.000",
+    "winning_numbers": "02 17 18 38 62 20",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-02-28T00:00:00.000",
+    "winning_numbers": "06 20 35 54 65 10",
+    "multiplier": "4"
+  },
+  {
+    "draw_date": "2026-02-25T00:00:00.000",
+    "winning_numbers": "50 52 54 56 64 23",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-02-23T00:00:00.000",
+    "winning_numbers": "05 11 23 29 47 06",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-02-21T00:00:00.000",
+    "winning_numbers": "27 28 36 48 49 21",
+    "multiplier": "4"
+  },
+  {
+    "draw_date": "2026-02-18T00:00:00.000",
+    "winning_numbers": "09 33 52 64 66 01",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-02-16T00:00:00.000",
+    "winning_numbers": "16 18 19 56 58 06",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2026-02-14T00:00:00.000",
+    "winning_numbers": "23 43 58 60 64 24",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-02-11T00:00:00.000",
+    "winning_numbers": "06 20 33 40 48 05",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-02-09T00:00:00.000",
+    "winning_numbers": "06 19 22 28 48 24",
+    "multiplier": "5"
+  },
+  {
+    "draw_date": "2026-02-07T00:00:00.000",
+    "winning_numbers": "25 36 42 51 58 06",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-02-04T00:00:00.000",
+    "winning_numbers": "27 29 30 37 58 15",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-02-02T00:00:00.000",
+    "winning_numbers": "03 08 31 60 65 04",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-01-31T00:00:00.000",
+    "winning_numbers": "02 08 14 40 63 23",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2026-01-28T00:00:00.000",
+    "winning_numbers": "21 35 40 46 68 11",
+    "multiplier": "10"
+  },
+  {
+    "draw_date": "2026-01-26T00:00:00.000",
+    "winning_numbers": "21 31 51 60 63 18",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-01-24T00:00:00.000",
+    "winning_numbers": "02 16 35 61 63 05",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2026-01-21T00:00:00.000",
+    "winning_numbers": "11 26 27 53 55 12",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-01-19T00:00:00.000",
+    "winning_numbers": "05 28 34 37 55 17",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2026-01-17T00:00:00.000",
+    "winning_numbers": "05 08 27 49 57 14",
+    "multiplier": "4"
+  },
+  {
+    "draw_date": "2026-01-14T00:00:00.000",
+    "winning_numbers": "06 24 39 43 51 02",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-01-12T00:00:00.000",
+    "winning_numbers": "05 27 45 56 59 04",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-01-10T00:00:00.000",
+    "winning_numbers": "05 19 21 28 64 14",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2026-01-07T00:00:00.000",
+    "winning_numbers": "15 28 57 58 63 23",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-01-05T00:00:00.000",
+    "winning_numbers": "04 18 24 51 56 14",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2026-01-03T00:00:00.000",
+    "winning_numbers": "18 21 40 53 60 23",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-12-31T00:00:00.000",
+    "winning_numbers": "11 18 21 24 38 26",
+    "multiplier": "10"
+  },
+  {
+    "draw_date": "2025-12-29T00:00:00.000",
+    "winning_numbers": "11 19 34 48 53 21",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-12-27T00:00:00.000",
+    "winning_numbers": "05 20 34 39 62 01",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-12-24T00:00:00.000",
+    "winning_numbers": "04 25 31 52 59 19",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-12-22T00:00:00.000",
+    "winning_numbers": "03 18 36 41 54 07",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-12-20T00:00:00.000",
+    "winning_numbers": "04 05 28 52 69 20",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-12-17T00:00:00.000",
+    "winning_numbers": "25 33 53 62 66 17",
+    "multiplier": "4"
+  },
+  {
+    "draw_date": "2025-12-15T00:00:00.000",
+    "winning_numbers": "23 35 59 63 68 02",
+    "multiplier": "4"
+  },
+  {
+    "draw_date": "2025-12-13T00:00:00.000",
+    "winning_numbers": "01 28 31 57 58 16",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-12-10T00:00:00.000",
+    "winning_numbers": "10 16 29 33 69 22",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-12-08T00:00:00.000",
+    "winning_numbers": "08 32 52 56 64 23",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-12-06T00:00:00.000",
+    "winning_numbers": "13 14 26 28 44 07",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-12-03T00:00:00.000",
+    "winning_numbers": "01 14 20 46 51 26",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-12-01T00:00:00.000",
+    "winning_numbers": "05 18 26 47 59 01",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-11-29T00:00:00.000",
+    "winning_numbers": "19 22 30 32 59 01",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-11-26T00:00:00.000",
+    "winning_numbers": "07 08 15 19 28 03",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-11-24T00:00:00.000",
+    "winning_numbers": "08 16 26 30 58 14",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-11-22T00:00:00.000",
+    "winning_numbers": "28 32 36 51 69 02",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-11-19T00:00:00.000",
+    "winning_numbers": "10 31 49 51 68 19",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-11-17T00:00:00.000",
+    "winning_numbers": "07 33 50 57 66 23",
+    "multiplier": "5"
+  },
+  {
+    "draw_date": "2025-11-15T00:00:00.000",
+    "winning_numbers": "06 07 12 47 53 21",
+    "multiplier": "4"
+  },
+  {
+    "draw_date": "2025-11-12T00:00:00.000",
+    "winning_numbers": "29 39 43 51 65 23",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-11-10T00:00:00.000",
+    "winning_numbers": "06 28 44 48 58 23",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-11-08T00:00:00.000",
+    "winning_numbers": "03 53 60 62 68 11",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-11-05T00:00:00.000",
+    "winning_numbers": "09 17 29 61 66 26",
+    "multiplier": "5"
+  },
+  {
+    "draw_date": "2025-11-03T00:00:00.000",
+    "winning_numbers": "03 32 40 43 57 18",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-11-01T00:00:00.000",
+    "winning_numbers": "02 26 43 44 62 22",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-10-29T00:00:00.000",
+    "winning_numbers": "04 24 49 60 65 01",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-10-27T00:00:00.000",
+    "winning_numbers": "17 39 43 51 66 20",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-10-25T00:00:00.000",
+    "winning_numbers": "02 12 22 39 67 15",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-10-22T00:00:00.000",
+    "winning_numbers": "18 37 52 54 60 12",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-10-20T00:00:00.000",
+    "winning_numbers": "32 38 66 67 69 19",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-10-18T00:00:00.000",
+    "winning_numbers": "03 11 27 40 58 10",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-10-15T00:00:00.000",
+    "winning_numbers": "10 13 28 34 47 15",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-10-13T00:00:00.000",
+    "winning_numbers": "13 14 32 52 64 12",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-10-11T00:00:00.000",
+    "winning_numbers": "13 16 18 20 27 10",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-10-08T00:00:00.000",
+    "winning_numbers": "08 10 44 48 54 14",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-10-06T00:00:00.000",
+    "winning_numbers": "28 29 32 66 67 03",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-10-04T00:00:00.000",
+    "winning_numbers": "03 07 47 67 68 02",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-10-01T00:00:00.000",
+    "winning_numbers": "08 17 22 28 55 14",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-09-29T00:00:00.000",
+    "winning_numbers": "01 03 27 60 65 16",
+    "multiplier": "5"
+  },
+  {
+    "draw_date": "2025-09-27T00:00:00.000",
+    "winning_numbers": "10 16 32 61 66 04",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-09-24T00:00:00.000",
+    "winning_numbers": "15 31 45 49 53 19",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-09-22T00:00:00.000",
+    "winning_numbers": "03 29 42 46 59 15",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-09-20T00:00:00.000",
+    "winning_numbers": "15 29 64 66 67 04",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-09-17T00:00:00.000",
+    "winning_numbers": "07 30 50 54 62 20",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-09-15T00:00:00.000",
+    "winning_numbers": "14 15 32 42 49 01",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-09-13T00:00:00.000",
+    "winning_numbers": "28 37 42 50 53 19",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-09-10T00:00:00.000",
+    "winning_numbers": "02 24 45 53 64 05",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-09-08T00:00:00.000",
+    "winning_numbers": "26 28 41 53 64 09",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-09-06T00:00:00.000",
+    "winning_numbers": "11 23 44 61 62 17",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-09-03T00:00:00.000",
+    "winning_numbers": "03 16 29 61 69 22",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-09-01T00:00:00.000",
+    "winning_numbers": "08 23 25 40 53 05",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-08-30T00:00:00.000",
+    "winning_numbers": "03 18 22 27 33 17",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-08-27T00:00:00.000",
+    "winning_numbers": "09 12 22 41 61 25",
+    "multiplier": "4"
+  },
+  {
+    "draw_date": "2025-08-25T00:00:00.000",
+    "winning_numbers": "16 19 34 37 64 22",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-08-23T00:00:00.000",
+    "winning_numbers": "11 14 34 47 51 18",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-08-20T00:00:00.000",
+    "winning_numbers": "31 59 62 65 68 05",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-08-18T00:00:00.000",
+    "winning_numbers": "15 46 61 63 64 01",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-08-16T00:00:00.000",
+    "winning_numbers": "23 40 49 65 69 23",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-08-13T00:00:00.000",
+    "winning_numbers": "04 11 40 44 50 04",
+    "multiplier": "3"
+  },
+  {
+    "draw_date": "2025-08-11T00:00:00.000",
+    "winning_numbers": "06 16 33 40 62 02",
+    "multiplier": "2"
+  },
+  {
+    "draw_date": "2025-08-09T00:00:00.000",
+    "winning_numbers": "07 14 23 24 60 14",
+    "multiplier": "2"
+  }
+]

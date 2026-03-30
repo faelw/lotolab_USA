@@ -1,0 +1,702 @@
+[
+  {
+    "draw_date": "2026-03-29T00:00:00.000",
+    "midday_daily": "304",
+    "evening_daily": "508",
+    "midday_win_4": "220",
+    "evening_win_4": "3229"
+  },
+  {
+    "draw_date": "2026-03-28T00:00:00.000",
+    "midday_daily": "562",
+    "evening_daily": "693",
+    "midday_win_4": "1671",
+    "evening_win_4": "4656"
+  },
+  {
+    "draw_date": "2026-03-27T00:00:00.000",
+    "midday_daily": "797",
+    "evening_daily": "463",
+    "midday_win_4": "6850",
+    "evening_win_4": "261"
+  },
+  {
+    "draw_date": "2026-03-26T00:00:00.000",
+    "midday_daily": "904",
+    "evening_daily": "479",
+    "midday_win_4": "5823",
+    "evening_win_4": "1391"
+  },
+  {
+    "draw_date": "2026-03-25T00:00:00.000",
+    "midday_daily": "575",
+    "evening_daily": "673",
+    "midday_win_4": "3094",
+    "evening_win_4": "5269"
+  },
+  {
+    "draw_date": "2026-03-24T00:00:00.000",
+    "midday_daily": "539",
+    "evening_daily": "153",
+    "midday_win_4": "4609",
+    "evening_win_4": "2561"
+  },
+  {
+    "draw_date": "2026-03-23T00:00:00.000",
+    "midday_daily": "939",
+    "evening_daily": "409",
+    "midday_win_4": "781",
+    "evening_win_4": "7956"
+  },
+  {
+    "draw_date": "2026-03-22T00:00:00.000",
+    "midday_daily": "892",
+    "evening_daily": "618",
+    "midday_win_4": "4513",
+    "evening_win_4": "783"
+  },
+  {
+    "draw_date": "2026-03-21T00:00:00.000",
+    "midday_daily": "271",
+    "evening_daily": "899",
+    "midday_win_4": "7486",
+    "evening_win_4": "2193"
+  },
+  {
+    "draw_date": "2026-03-20T00:00:00.000",
+    "midday_daily": "401",
+    "evening_daily": "55",
+    "midday_win_4": "5470",
+    "evening_win_4": "565"
+  },
+  {
+    "draw_date": "2026-03-19T00:00:00.000",
+    "midday_daily": "303",
+    "evening_daily": "47",
+    "midday_win_4": "1392",
+    "evening_win_4": "8166"
+  },
+  {
+    "draw_date": "2026-03-18T00:00:00.000",
+    "midday_daily": "578",
+    "evening_daily": "299",
+    "midday_win_4": "7206",
+    "evening_win_4": "8960"
+  },
+  {
+    "draw_date": "2026-03-17T00:00:00.000",
+    "midday_daily": "829",
+    "evening_daily": "744",
+    "midday_win_4": "4391",
+    "evening_win_4": "8102"
+  },
+  {
+    "draw_date": "2026-03-16T00:00:00.000",
+    "midday_daily": "159",
+    "evening_daily": "797",
+    "midday_win_4": "2360",
+    "evening_win_4": "4407"
+  },
+  {
+    "draw_date": "2026-03-15T00:00:00.000",
+    "midday_daily": "812",
+    "evening_daily": "801",
+    "midday_win_4": "7295",
+    "evening_win_4": "6276"
+  },
+  {
+    "draw_date": "2026-03-14T00:00:00.000",
+    "midday_daily": "495",
+    "evening_daily": "723",
+    "midday_win_4": "5681",
+    "evening_win_4": "6031"
+  },
+  {
+    "draw_date": "2026-03-13T00:00:00.000",
+    "midday_daily": "340",
+    "evening_daily": "986",
+    "midday_win_4": "1698",
+    "evening_win_4": "7879"
+  },
+  {
+    "draw_date": "2026-03-12T00:00:00.000",
+    "midday_daily": "354",
+    "evening_daily": "865",
+    "midday_win_4": "8561",
+    "evening_win_4": "5354"
+  },
+  {
+    "draw_date": "2026-03-11T00:00:00.000",
+    "midday_daily": "370",
+    "evening_daily": "147",
+    "midday_win_4": "1936",
+    "evening_win_4": "3654"
+  },
+  {
+    "draw_date": "2026-03-10T00:00:00.000",
+    "midday_daily": "119",
+    "evening_daily": "82",
+    "midday_win_4": "5073",
+    "evening_win_4": "1105"
+  },
+  {
+    "draw_date": "2026-03-09T00:00:00.000",
+    "midday_daily": "900",
+    "evening_daily": "298",
+    "midday_win_4": "7330",
+    "evening_win_4": "4408"
+  },
+  {
+    "draw_date": "2026-03-08T00:00:00.000",
+    "midday_daily": "100",
+    "evening_daily": "147",
+    "midday_win_4": "8908",
+    "evening_win_4": "7653"
+  },
+  {
+    "draw_date": "2026-03-07T00:00:00.000",
+    "midday_daily": "87",
+    "evening_daily": "651",
+    "midday_win_4": "5164",
+    "evening_win_4": "4302"
+  },
+  {
+    "draw_date": "2026-03-06T00:00:00.000",
+    "midday_daily": "134",
+    "evening_daily": "53",
+    "midday_win_4": "3559",
+    "evening_win_4": "283"
+  },
+  {
+    "draw_date": "2026-03-05T00:00:00.000",
+    "midday_daily": "129",
+    "evening_daily": "447",
+    "midday_win_4": "6139",
+    "evening_win_4": "8681"
+  },
+  {
+    "draw_date": "2026-03-04T00:00:00.000",
+    "midday_daily": "318",
+    "evening_daily": "270",
+    "midday_win_4": "5214",
+    "evening_win_4": "8896"
+  },
+  {
+    "draw_date": "2026-03-03T00:00:00.000",
+    "midday_daily": "632",
+    "evening_daily": "94",
+    "midday_win_4": "5734",
+    "evening_win_4": "6212"
+  },
+  {
+    "draw_date": "2026-03-02T00:00:00.000",
+    "midday_daily": "543",
+    "evening_daily": "917",
+    "midday_win_4": "8572",
+    "evening_win_4": "4686"
+  },
+  {
+    "draw_date": "2026-03-01T00:00:00.000",
+    "midday_daily": "133",
+    "evening_daily": "89",
+    "midday_win_4": "7875",
+    "evening_win_4": "7358"
+  },
+  {
+    "draw_date": "2026-02-28T00:00:00.000",
+    "midday_daily": "360",
+    "evening_daily": "722",
+    "midday_win_4": "4256",
+    "evening_win_4": "5076"
+  },
+  {
+    "draw_date": "2026-02-27T00:00:00.000",
+    "midday_daily": "262",
+    "evening_daily": "440",
+    "midday_win_4": "6155",
+    "evening_win_4": "6506"
+  },
+  {
+    "draw_date": "2026-02-26T00:00:00.000",
+    "midday_daily": "925",
+    "evening_daily": "727",
+    "midday_win_4": "8704",
+    "evening_win_4": "2002"
+  },
+  {
+    "draw_date": "2026-02-25T00:00:00.000",
+    "midday_daily": "999",
+    "evening_daily": "566",
+    "midday_win_4": "4656",
+    "evening_win_4": "8691"
+  },
+  {
+    "draw_date": "2026-02-24T00:00:00.000",
+    "midday_daily": "585",
+    "evening_daily": "902",
+    "midday_win_4": "1253",
+    "evening_win_4": "4854"
+  },
+  {
+    "draw_date": "2026-02-23T00:00:00.000",
+    "midday_daily": "426",
+    "evening_daily": "140",
+    "midday_win_4": "5255",
+    "evening_win_4": "8076"
+  },
+  {
+    "draw_date": "2026-02-22T00:00:00.000",
+    "midday_daily": "653",
+    "evening_daily": "53",
+    "midday_win_4": "9837",
+    "evening_win_4": "8686"
+  },
+  {
+    "draw_date": "2026-02-21T00:00:00.000",
+    "midday_daily": "707",
+    "evening_daily": "957",
+    "midday_win_4": "8515",
+    "evening_win_4": "8122"
+  },
+  {
+    "draw_date": "2026-02-20T00:00:00.000",
+    "midday_daily": "417",
+    "evening_daily": "337",
+    "midday_win_4": "8396",
+    "evening_win_4": "5076"
+  },
+  {
+    "draw_date": "2026-02-19T00:00:00.000",
+    "midday_daily": "501",
+    "evening_daily": "768",
+    "midday_win_4": "6903",
+    "evening_win_4": "2294"
+  },
+  {
+    "draw_date": "2026-02-18T00:00:00.000",
+    "midday_daily": "954",
+    "evening_daily": "428",
+    "midday_win_4": "7213",
+    "evening_win_4": "8244"
+  },
+  {
+    "draw_date": "2026-02-17T00:00:00.000",
+    "midday_daily": "578",
+    "evening_daily": "231",
+    "midday_win_4": "8217",
+    "evening_win_4": "4035"
+  },
+  {
+    "draw_date": "2026-02-16T00:00:00.000",
+    "midday_daily": "423",
+    "evening_daily": "233",
+    "midday_win_4": "1925",
+    "evening_win_4": "4254"
+  },
+  {
+    "draw_date": "2026-02-15T00:00:00.000",
+    "midday_daily": "687",
+    "evening_daily": "759",
+    "midday_win_4": "5758",
+    "evening_win_4": "5575"
+  },
+  {
+    "draw_date": "2026-02-14T00:00:00.000",
+    "midday_daily": "942",
+    "evening_daily": "548",
+    "midday_win_4": "8911",
+    "evening_win_4": "8820"
+  },
+  {
+    "draw_date": "2026-02-13T00:00:00.000",
+    "midday_daily": "121",
+    "evening_daily": "117",
+    "midday_win_4": "7515",
+    "evening_win_4": "6175"
+  },
+  {
+    "draw_date": "2026-02-12T00:00:00.000",
+    "midday_daily": "866",
+    "evening_daily": "635",
+    "midday_win_4": "3681",
+    "evening_win_4": "7465"
+  },
+  {
+    "draw_date": "2026-02-11T00:00:00.000",
+    "midday_daily": "119",
+    "evening_daily": "909",
+    "midday_win_4": "8383",
+    "evening_win_4": "8106"
+  },
+  {
+    "draw_date": "2026-02-10T00:00:00.000",
+    "midday_daily": "73",
+    "evening_daily": "570",
+    "midday_win_4": "8548",
+    "evening_win_4": "2771"
+  },
+  {
+    "draw_date": "2026-02-09T00:00:00.000",
+    "midday_daily": "646",
+    "evening_daily": "394",
+    "midday_win_4": "633",
+    "evening_win_4": "1849"
+  },
+  {
+    "draw_date": "2026-02-08T00:00:00.000",
+    "midday_daily": "485",
+    "evening_daily": "734",
+    "midday_win_4": "3466",
+    "evening_win_4": "2686"
+  },
+  {
+    "draw_date": "2026-02-07T00:00:00.000",
+    "midday_daily": "748",
+    "evening_daily": "983",
+    "midday_win_4": "4325",
+    "evening_win_4": "9363"
+  },
+  {
+    "draw_date": "2026-02-06T00:00:00.000",
+    "midday_daily": "166",
+    "evening_daily": "591",
+    "midday_win_4": "4684",
+    "evening_win_4": "6184"
+  },
+  {
+    "draw_date": "2026-02-05T00:00:00.000",
+    "midday_daily": "480",
+    "evening_daily": "759",
+    "midday_win_4": "7183",
+    "evening_win_4": "3326"
+  },
+  {
+    "draw_date": "2026-02-04T00:00:00.000",
+    "midday_daily": "21",
+    "evening_daily": "547",
+    "midday_win_4": "1330",
+    "evening_win_4": "1333"
+  },
+  {
+    "draw_date": "2026-02-03T00:00:00.000",
+    "midday_daily": "815",
+    "evening_daily": "379",
+    "midday_win_4": "2647",
+    "evening_win_4": "9474"
+  },
+  {
+    "draw_date": "2026-02-02T00:00:00.000",
+    "midday_daily": "475",
+    "evening_daily": "945",
+    "midday_win_4": "3962",
+    "evening_win_4": "5330"
+  },
+  {
+    "draw_date": "2026-02-01T00:00:00.000",
+    "midday_daily": "816",
+    "evening_daily": "61",
+    "midday_win_4": "1220",
+    "evening_win_4": "1465"
+  },
+  {
+    "draw_date": "2026-01-31T00:00:00.000",
+    "midday_daily": "117",
+    "evening_daily": "732",
+    "midday_win_4": "5964",
+    "evening_win_4": "1977"
+  },
+  {
+    "draw_date": "2026-01-30T00:00:00.000",
+    "midday_daily": "123",
+    "evening_daily": "415",
+    "midday_win_4": "8188",
+    "evening_win_4": "2968"
+  },
+  {
+    "draw_date": "2026-01-29T00:00:00.000",
+    "midday_daily": "152",
+    "evening_daily": "592",
+    "midday_win_4": "3391",
+    "evening_win_4": "2006"
+  },
+  {
+    "draw_date": "2026-01-28T00:00:00.000",
+    "midday_daily": "90",
+    "evening_daily": "733",
+    "midday_win_4": "1044",
+    "evening_win_4": "7906"
+  },
+  {
+    "draw_date": "2026-01-27T00:00:00.000",
+    "midday_daily": "517",
+    "evening_daily": "65",
+    "midday_win_4": "1550",
+    "evening_win_4": "495"
+  },
+  {
+    "draw_date": "2026-01-26T00:00:00.000",
+    "midday_daily": "76",
+    "evening_daily": "866",
+    "midday_win_4": "5395",
+    "evening_win_4": "9094"
+  },
+  {
+    "draw_date": "2026-01-25T00:00:00.000",
+    "midday_daily": "977",
+    "evening_daily": "183",
+    "midday_win_4": "9983",
+    "evening_win_4": "1673"
+  },
+  {
+    "draw_date": "2026-01-24T00:00:00.000",
+    "midday_daily": "716",
+    "evening_daily": "551",
+    "midday_win_4": "7376",
+    "evening_win_4": "1960"
+  },
+  {
+    "draw_date": "2026-01-23T00:00:00.000",
+    "midday_daily": "389",
+    "evening_daily": "771",
+    "midday_win_4": "814",
+    "evening_win_4": "8035"
+  },
+  {
+    "draw_date": "2026-01-22T00:00:00.000",
+    "midday_daily": "981",
+    "evening_daily": "787",
+    "midday_win_4": "2444",
+    "evening_win_4": "77"
+  },
+  {
+    "draw_date": "2026-01-21T00:00:00.000",
+    "midday_daily": "616",
+    "evening_daily": "233",
+    "midday_win_4": "9347",
+    "evening_win_4": "2616"
+  },
+  {
+    "draw_date": "2026-01-20T00:00:00.000",
+    "midday_daily": "479",
+    "evening_daily": "406",
+    "midday_win_4": "905",
+    "evening_win_4": "47"
+  },
+  {
+    "draw_date": "2026-01-19T00:00:00.000",
+    "midday_daily": "769",
+    "evening_daily": "440",
+    "midday_win_4": "3971",
+    "evening_win_4": "1959"
+  },
+  {
+    "draw_date": "2026-01-18T00:00:00.000",
+    "midday_daily": "682",
+    "evening_daily": "94",
+    "midday_win_4": "1501",
+    "evening_win_4": "9195"
+  },
+  {
+    "draw_date": "2026-01-17T00:00:00.000",
+    "midday_daily": "904",
+    "evening_daily": "285",
+    "midday_win_4": "804",
+    "evening_win_4": "9988"
+  },
+  {
+    "draw_date": "2026-01-16T00:00:00.000",
+    "midday_daily": "539",
+    "evening_daily": "496",
+    "midday_win_4": "8350",
+    "evening_win_4": "8072"
+  },
+  {
+    "draw_date": "2026-01-15T00:00:00.000",
+    "midday_daily": "901",
+    "evening_daily": "684",
+    "midday_win_4": "617",
+    "evening_win_4": "3889"
+  },
+  {
+    "draw_date": "2026-01-14T00:00:00.000",
+    "midday_daily": "519",
+    "evening_daily": "402",
+    "midday_win_4": "6250",
+    "evening_win_4": "9719"
+  },
+  {
+    "draw_date": "2026-01-13T00:00:00.000",
+    "midday_daily": "9",
+    "evening_daily": "18",
+    "midday_win_4": "1172",
+    "evening_win_4": "8340"
+  },
+  {
+    "draw_date": "2026-01-12T00:00:00.000",
+    "midday_daily": "924",
+    "evening_daily": "586",
+    "midday_win_4": "4945",
+    "evening_win_4": "9544"
+  },
+  {
+    "draw_date": "2026-01-11T00:00:00.000",
+    "midday_daily": "992",
+    "evening_daily": "91",
+    "midday_win_4": "2990",
+    "evening_win_4": "2926"
+  },
+  {
+    "draw_date": "2026-01-10T00:00:00.000",
+    "midday_daily": "52",
+    "evening_daily": "456",
+    "midday_win_4": "4707",
+    "evening_win_4": "9493"
+  },
+  {
+    "draw_date": "2026-01-09T00:00:00.000",
+    "midday_daily": "989",
+    "evening_daily": "835",
+    "midday_win_4": "945",
+    "evening_win_4": "1090"
+  },
+  {
+    "draw_date": "2026-01-08T00:00:00.000",
+    "midday_daily": "199",
+    "evening_daily": "732",
+    "midday_win_4": "6729",
+    "evening_win_4": "6957"
+  },
+  {
+    "draw_date": "2026-01-07T00:00:00.000",
+    "midday_daily": "916",
+    "evening_daily": "286",
+    "midday_win_4": "6118",
+    "evening_win_4": "5927"
+  },
+  {
+    "draw_date": "2026-01-06T00:00:00.000",
+    "midday_daily": "181",
+    "evening_daily": "342",
+    "midday_win_4": "2666",
+    "evening_win_4": "4424"
+  },
+  {
+    "draw_date": "2026-01-05T00:00:00.000",
+    "midday_daily": "80",
+    "evening_daily": "735",
+    "midday_win_4": "8363",
+    "evening_win_4": "8223"
+  },
+  {
+    "draw_date": "2026-01-04T00:00:00.000",
+    "midday_daily": "793",
+    "evening_daily": "489",
+    "midday_win_4": "8404",
+    "evening_win_4": "6731"
+  },
+  {
+    "draw_date": "2026-01-03T00:00:00.000",
+    "midday_daily": "243",
+    "evening_daily": "679",
+    "midday_win_4": "4540",
+    "evening_win_4": "1279"
+  },
+  {
+    "draw_date": "2026-01-02T00:00:00.000",
+    "midday_daily": "998",
+    "evening_daily": "256",
+    "midday_win_4": "3630",
+    "evening_win_4": "8049"
+  },
+  {
+    "draw_date": "2026-01-01T00:00:00.000",
+    "midday_daily": "117",
+    "evening_daily": "174",
+    "midday_win_4": "5546",
+    "evening_win_4": "3317"
+  },
+  {
+    "draw_date": "2025-12-31T00:00:00.000",
+    "midday_daily": "419",
+    "evening_daily": "116",
+    "midday_win_4": "2328",
+    "evening_win_4": "3796"
+  },
+  {
+    "draw_date": "2025-12-30T00:00:00.000",
+    "midday_daily": "51",
+    "evening_daily": "132",
+    "midday_win_4": "9488",
+    "evening_win_4": "3503"
+  },
+  {
+    "draw_date": "2025-12-29T00:00:00.000",
+    "midday_daily": "321",
+    "evening_daily": "195",
+    "midday_win_4": "7337",
+    "evening_win_4": "1372"
+  },
+  {
+    "draw_date": "2025-12-28T00:00:00.000",
+    "midday_daily": "498",
+    "evening_daily": "353",
+    "midday_win_4": "985",
+    "evening_win_4": "4295"
+  },
+  {
+    "draw_date": "2025-12-27T00:00:00.000",
+    "midday_daily": "893",
+    "evening_daily": "50",
+    "midday_win_4": "705",
+    "evening_win_4": "2919"
+  },
+  {
+    "draw_date": "2025-12-26T00:00:00.000",
+    "midday_daily": "464",
+    "evening_daily": "114",
+    "midday_win_4": "4573",
+    "evening_win_4": "2600"
+  },
+  {
+    "draw_date": "2025-12-25T00:00:00.000",
+    "midday_daily": "783",
+    "evening_daily": "661",
+    "midday_win_4": "334",
+    "evening_win_4": "7373"
+  },
+  {
+    "draw_date": "2025-12-24T00:00:00.000",
+    "midday_daily": "475",
+    "evening_daily": "110",
+    "midday_win_4": "1922",
+    "evening_win_4": "640"
+  },
+  {
+    "draw_date": "2025-12-23T00:00:00.000",
+    "midday_daily": "580",
+    "evening_daily": "298",
+    "midday_win_4": "6223",
+    "evening_win_4": "7643"
+  },
+  {
+    "draw_date": "2025-12-22T00:00:00.000",
+    "midday_daily": "203",
+    "evening_daily": "251",
+    "midday_win_4": "5082",
+    "evening_win_4": "2919"
+  },
+  {
+    "draw_date": "2025-12-21T00:00:00.000",
+    "midday_daily": "402",
+    "evening_daily": "524",
+    "midday_win_4": "9620",
+    "evening_win_4": "1601"
+  },
+  {
+    "draw_date": "2025-12-20T00:00:00.000",
+    "midday_daily": "58",
+    "evening_daily": "940",
+    "midday_win_4": "1141",
+    "evening_win_4": "1502"
+  }
+]

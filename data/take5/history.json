@@ -1,0 +1,502 @@
+[
+  {
+    "draw_date": "2026-03-29T00:00:00.000",
+    "evening_winning_numbers": "05 06 17 18 20",
+    "midday_winning_numbers": "08 27 29 31 33"
+  },
+  {
+    "draw_date": "2026-03-28T00:00:00.000",
+    "evening_winning_numbers": "03 07 13 17 19",
+    "midday_winning_numbers": "08 14 18 20 34"
+  },
+  {
+    "draw_date": "2026-03-27T00:00:00.000",
+    "evening_winning_numbers": "09 12 16 26 37",
+    "midday_winning_numbers": "15 21 28 32 37"
+  },
+  {
+    "draw_date": "2026-03-26T00:00:00.000",
+    "evening_winning_numbers": "02 04 08 21 27",
+    "midday_winning_numbers": "02 06 07 20 25"
+  },
+  {
+    "draw_date": "2026-03-25T00:00:00.000",
+    "evening_winning_numbers": "10 14 21 35 36",
+    "midday_winning_numbers": "11 13 30 34 37"
+  },
+  {
+    "draw_date": "2026-03-24T00:00:00.000",
+    "evening_winning_numbers": "19 21 22 30 31",
+    "midday_winning_numbers": "13 27 34 37 38"
+  },
+  {
+    "draw_date": "2026-03-23T00:00:00.000",
+    "evening_winning_numbers": "02 03 05 29 37",
+    "midday_winning_numbers": "01 10 14 16 22"
+  },
+  {
+    "draw_date": "2026-03-22T00:00:00.000",
+    "evening_winning_numbers": "08 10 23 25 32",
+    "midday_winning_numbers": "06 10 17 33 37"
+  },
+  {
+    "draw_date": "2026-03-21T00:00:00.000",
+    "evening_winning_numbers": "18 21 22 28 39",
+    "midday_winning_numbers": "11 23 30 33 37"
+  },
+  {
+    "draw_date": "2026-03-20T00:00:00.000",
+    "evening_winning_numbers": "01 18 33 37 38",
+    "midday_winning_numbers": "20 21 26 27 35"
+  },
+  {
+    "draw_date": "2026-03-19T00:00:00.000",
+    "evening_winning_numbers": "11 16 17 19 32",
+    "midday_winning_numbers": "14 18 19 21 28"
+  },
+  {
+    "draw_date": "2026-03-18T00:00:00.000",
+    "evening_winning_numbers": "02 11 21 30 31",
+    "midday_winning_numbers": "03 10 20 24 33"
+  },
+  {
+    "draw_date": "2026-03-17T00:00:00.000",
+    "evening_winning_numbers": "04 10 14 18 32",
+    "midday_winning_numbers": "09 15 23 33 36"
+  },
+  {
+    "draw_date": "2026-03-16T00:00:00.000",
+    "evening_winning_numbers": "01 11 15 21 22",
+    "midday_winning_numbers": "05 06 24 27 32"
+  },
+  {
+    "draw_date": "2026-03-15T00:00:00.000",
+    "evening_winning_numbers": "01 04 28 29 31",
+    "midday_winning_numbers": "05 08 19 23 38"
+  },
+  {
+    "draw_date": "2026-03-14T00:00:00.000",
+    "evening_winning_numbers": "02 06 08 17 21",
+    "midday_winning_numbers": "01 02 16 18 30"
+  },
+  {
+    "draw_date": "2026-03-13T00:00:00.000",
+    "evening_winning_numbers": "01 07 13 28 39",
+    "midday_winning_numbers": "01 06 14 35 39"
+  },
+  {
+    "draw_date": "2026-03-12T00:00:00.000",
+    "evening_winning_numbers": "05 11 16 32 35",
+    "midday_winning_numbers": "10 15 24 29 30"
+  },
+  {
+    "draw_date": "2026-03-11T00:00:00.000",
+    "evening_winning_numbers": "06 14 18 23 37",
+    "midday_winning_numbers": "12 13 22 25 29"
+  },
+  {
+    "draw_date": "2026-03-10T00:00:00.000",
+    "evening_winning_numbers": "06 08 15 21 36",
+    "midday_winning_numbers": "05 08 22 29 39"
+  },
+  {
+    "draw_date": "2026-03-09T00:00:00.000",
+    "evening_winning_numbers": "09 15 20 26 38",
+    "midday_winning_numbers": "02 09 13 27 39"
+  },
+  {
+    "draw_date": "2026-03-08T00:00:00.000",
+    "evening_winning_numbers": "11 18 20 25 26",
+    "midday_winning_numbers": "08 12 14 21 34"
+  },
+  {
+    "draw_date": "2026-03-07T00:00:00.000",
+    "evening_winning_numbers": "01 15 16 33 36",
+    "midday_winning_numbers": "02 06 24 36 37"
+  },
+  {
+    "draw_date": "2026-03-06T00:00:00.000",
+    "evening_winning_numbers": "11 13 26 35 38",
+    "midday_winning_numbers": "05 16 24 35 38"
+  },
+  {
+    "draw_date": "2026-03-05T00:00:00.000",
+    "evening_winning_numbers": "03 05 20 30 36",
+    "midday_winning_numbers": "11 24 25 29 39"
+  },
+  {
+    "draw_date": "2026-03-04T00:00:00.000",
+    "evening_winning_numbers": "08 21 27 34 37",
+    "midday_winning_numbers": "09 15 23 26 31"
+  },
+  {
+    "draw_date": "2026-03-03T00:00:00.000",
+    "evening_winning_numbers": "03 05 19 22 36",
+    "midday_winning_numbers": "08 25 30 31 36"
+  },
+  {
+    "draw_date": "2026-03-02T00:00:00.000",
+    "evening_winning_numbers": "14 19 31 33 36",
+    "midday_winning_numbers": "07 19 29 32 38"
+  },
+  {
+    "draw_date": "2026-03-01T00:00:00.000",
+    "evening_winning_numbers": "01 13 14 19 34",
+    "midday_winning_numbers": "12 25 26 29 35"
+  },
+  {
+    "draw_date": "2026-02-28T00:00:00.000",
+    "evening_winning_numbers": "02 25 36 37 39",
+    "midday_winning_numbers": "18 21 22 24 36"
+  },
+  {
+    "draw_date": "2026-02-27T00:00:00.000",
+    "evening_winning_numbers": "08 12 22 27 30",
+    "midday_winning_numbers": "02 10 21 23 38"
+  },
+  {
+    "draw_date": "2026-02-26T00:00:00.000",
+    "evening_winning_numbers": "15 17 20 23 27",
+    "midday_winning_numbers": "07 13 16 24 37"
+  },
+  {
+    "draw_date": "2026-02-25T00:00:00.000",
+    "evening_winning_numbers": "09 18 21 25 38",
+    "midday_winning_numbers": "19 25 27 30 36"
+  },
+  {
+    "draw_date": "2026-02-24T00:00:00.000",
+    "evening_winning_numbers": "15 16 34 35 36",
+    "midday_winning_numbers": "14 25 27 28 29"
+  },
+  {
+    "draw_date": "2026-02-23T00:00:00.000",
+    "evening_winning_numbers": "02 10 13 24 32",
+    "midday_winning_numbers": "05 08 17 29 37"
+  },
+  {
+    "draw_date": "2026-02-22T00:00:00.000",
+    "evening_winning_numbers": "14 25 27 31 32",
+    "midday_winning_numbers": "15 29 30 33 38"
+  },
+  {
+    "draw_date": "2026-02-21T00:00:00.000",
+    "evening_winning_numbers": "05 13 18 26 31",
+    "midday_winning_numbers": "09 13 18 22 23"
+  },
+  {
+    "draw_date": "2026-02-20T00:00:00.000",
+    "evening_winning_numbers": "06 08 09 15 20",
+    "midday_winning_numbers": "10 13 18 28 33"
+  },
+  {
+    "draw_date": "2026-02-19T00:00:00.000",
+    "evening_winning_numbers": "06 22 29 35 37",
+    "midday_winning_numbers": "07 08 23 28 34"
+  },
+  {
+    "draw_date": "2026-02-18T00:00:00.000",
+    "evening_winning_numbers": "04 05 07 31 39",
+    "midday_winning_numbers": "07 11 19 20 35"
+  },
+  {
+    "draw_date": "2026-02-17T00:00:00.000",
+    "evening_winning_numbers": "08 15 21 28 33",
+    "midday_winning_numbers": "06 21 26 33 36"
+  },
+  {
+    "draw_date": "2026-02-16T00:00:00.000",
+    "evening_winning_numbers": "03 15 18 23 30",
+    "midday_winning_numbers": "02 07 22 23 29"
+  },
+  {
+    "draw_date": "2026-02-15T00:00:00.000",
+    "evening_winning_numbers": "16 18 21 25 38",
+    "midday_winning_numbers": "04 08 17 32 38"
+  },
+  {
+    "draw_date": "2026-02-14T00:00:00.000",
+    "evening_winning_numbers": "01 08 23 34 35",
+    "midday_winning_numbers": "05 06 09 18 20"
+  },
+  {
+    "draw_date": "2026-02-13T00:00:00.000",
+    "evening_winning_numbers": "04 25 26 32 39",
+    "midday_winning_numbers": "03 16 25 29 36"
+  },
+  {
+    "draw_date": "2026-02-12T00:00:00.000",
+    "evening_winning_numbers": "15 16 20 28 34",
+    "midday_winning_numbers": "02 15 28 32 33"
+  },
+  {
+    "draw_date": "2026-02-11T00:00:00.000",
+    "evening_winning_numbers": "02 03 15 28 29",
+    "midday_winning_numbers": "06 22 23 26 27"
+  },
+  {
+    "draw_date": "2026-02-10T00:00:00.000",
+    "evening_winning_numbers": "19 20 22 36 39",
+    "midday_winning_numbers": "07 16 29 33 38"
+  },
+  {
+    "draw_date": "2026-02-09T00:00:00.000",
+    "evening_winning_numbers": "12 16 17 25 31",
+    "midday_winning_numbers": "14 18 19 22 37"
+  },
+  {
+    "draw_date": "2026-02-08T00:00:00.000",
+    "evening_winning_numbers": "01 20 23 34 38",
+    "midday_winning_numbers": "06 10 12 21 24"
+  },
+  {
+    "draw_date": "2026-02-07T00:00:00.000",
+    "evening_winning_numbers": "01 08 13 34 37",
+    "midday_winning_numbers": "04 14 19 32 34"
+  },
+  {
+    "draw_date": "2026-02-06T00:00:00.000",
+    "evening_winning_numbers": "19 21 22 23 32",
+    "midday_winning_numbers": "03 07 15 26 34"
+  },
+  {
+    "draw_date": "2026-02-05T00:00:00.000",
+    "evening_winning_numbers": "07 17 23 27 36",
+    "midday_winning_numbers": "01 17 28 32 35"
+  },
+  {
+    "draw_date": "2026-02-04T00:00:00.000",
+    "evening_winning_numbers": "03 18 21 24 35",
+    "midday_winning_numbers": "07 13 22 26 36"
+  },
+  {
+    "draw_date": "2026-02-03T00:00:00.000",
+    "evening_winning_numbers": "08 14 20 25 28",
+    "midday_winning_numbers": "10 11 22 25 33"
+  },
+  {
+    "draw_date": "2026-02-02T00:00:00.000",
+    "evening_winning_numbers": "14 19 20 23 29",
+    "midday_winning_numbers": "03 08 09 28 36"
+  },
+  {
+    "draw_date": "2026-02-01T00:00:00.000",
+    "evening_winning_numbers": "03 05 07 16 37",
+    "midday_winning_numbers": "01 15 26 30 36"
+  },
+  {
+    "draw_date": "2026-01-31T00:00:00.000",
+    "evening_winning_numbers": "01 11 16 30 36",
+    "midday_winning_numbers": "14 17 25 29 32"
+  },
+  {
+    "draw_date": "2026-01-30T00:00:00.000",
+    "evening_winning_numbers": "10 21 28 29 32",
+    "midday_winning_numbers": "02 03 18 31 37"
+  },
+  {
+    "draw_date": "2026-01-29T00:00:00.000",
+    "evening_winning_numbers": "05 19 33 36 38",
+    "midday_winning_numbers": "05 16 22 33 34"
+  },
+  {
+    "draw_date": "2026-01-28T00:00:00.000",
+    "evening_winning_numbers": "02 07 21 22 37",
+    "midday_winning_numbers": "01 08 22 25 39"
+  },
+  {
+    "draw_date": "2026-01-27T00:00:00.000",
+    "evening_winning_numbers": "02 06 26 35 38",
+    "midday_winning_numbers": "01 16 25 33 37"
+  },
+  {
+    "draw_date": "2026-01-26T00:00:00.000",
+    "evening_winning_numbers": "18 21 25 32 34",
+    "midday_winning_numbers": "07 08 26 27 38"
+  },
+  {
+    "draw_date": "2026-01-25T00:00:00.000",
+    "evening_winning_numbers": "12 22 26 30 38",
+    "midday_winning_numbers": "03 12 23 30 35"
+  },
+  {
+    "draw_date": "2026-01-24T00:00:00.000",
+    "evening_winning_numbers": "03 24 30 33 37",
+    "midday_winning_numbers": "02 23 25 27 33"
+  },
+  {
+    "draw_date": "2026-01-23T00:00:00.000",
+    "evening_winning_numbers": "05 07 13 15 18",
+    "midday_winning_numbers": "09 10 32 33 39"
+  },
+  {
+    "draw_date": "2026-01-22T00:00:00.000",
+    "evening_winning_numbers": "04 13 15 18 33",
+    "midday_winning_numbers": "05 06 27 28 29"
+  },
+  {
+    "draw_date": "2026-01-21T00:00:00.000",
+    "evening_winning_numbers": "06 18 25 28 37",
+    "midday_winning_numbers": "02 06 26 31 34"
+  },
+  {
+    "draw_date": "2026-01-20T00:00:00.000",
+    "evening_winning_numbers": "06 22 24 30 38",
+    "midday_winning_numbers": "11 14 20 23 27"
+  },
+  {
+    "draw_date": "2026-01-19T00:00:00.000",
+    "evening_winning_numbers": "02 25 28 33 39",
+    "midday_winning_numbers": "01 04 24 25 28"
+  },
+  {
+    "draw_date": "2026-01-18T00:00:00.000",
+    "evening_winning_numbers": "01 09 12 25 30",
+    "midday_winning_numbers": "15 17 20 28 30"
+  },
+  {
+    "draw_date": "2026-01-17T00:00:00.000",
+    "evening_winning_numbers": "13 24 27 33 38",
+    "midday_winning_numbers": "10 15 22 24 38"
+  },
+  {
+    "draw_date": "2026-01-16T00:00:00.000",
+    "evening_winning_numbers": "07 08 14 17 30",
+    "midday_winning_numbers": "01 11 21 26 37"
+  },
+  {
+    "draw_date": "2026-01-15T00:00:00.000",
+    "evening_winning_numbers": "11 18 19 34 39",
+    "midday_winning_numbers": "12 18 28 34 39"
+  },
+  {
+    "draw_date": "2026-01-14T00:00:00.000",
+    "evening_winning_numbers": "01 21 22 38 39",
+    "midday_winning_numbers": "09 18 19 20 35"
+  },
+  {
+    "draw_date": "2026-01-13T00:00:00.000",
+    "evening_winning_numbers": "02 11 14 22 26",
+    "midday_winning_numbers": "05 07 11 19 37"
+  },
+  {
+    "draw_date": "2026-01-12T00:00:00.000",
+    "evening_winning_numbers": "04 05 13 22 26",
+    "midday_winning_numbers": "02 07 21 23 34"
+  },
+  {
+    "draw_date": "2026-01-11T00:00:00.000",
+    "evening_winning_numbers": "10 12 21 36 38",
+    "midday_winning_numbers": "02 21 31 32 33"
+  },
+  {
+    "draw_date": "2026-01-10T00:00:00.000",
+    "evening_winning_numbers": "03 04 10 15 39",
+    "midday_winning_numbers": "01 05 08 19 25"
+  },
+  {
+    "draw_date": "2026-01-09T00:00:00.000",
+    "evening_winning_numbers": "05 18 29 34 35",
+    "midday_winning_numbers": "03 05 27 37 39"
+  },
+  {
+    "draw_date": "2026-01-08T00:00:00.000",
+    "evening_winning_numbers": "01 15 24 29 39",
+    "midday_winning_numbers": "21 23 36 37 38"
+  },
+  {
+    "draw_date": "2026-01-07T00:00:00.000",
+    "evening_winning_numbers": "31 33 34 37 39",
+    "midday_winning_numbers": "10 24 25 28 32"
+  },
+  {
+    "draw_date": "2026-01-06T00:00:00.000",
+    "evening_winning_numbers": "03 14 19 24 32",
+    "midday_winning_numbers": "02 07 21 33 37"
+  },
+  {
+    "draw_date": "2026-01-05T00:00:00.000",
+    "evening_winning_numbers": "05 14 18 24 39",
+    "midday_winning_numbers": "12 13 15 25 33"
+  },
+  {
+    "draw_date": "2026-01-04T00:00:00.000",
+    "evening_winning_numbers": "04 10 18 27 39",
+    "midday_winning_numbers": "06 17 19 28 31"
+  },
+  {
+    "draw_date": "2026-01-03T00:00:00.000",
+    "evening_winning_numbers": "04 06 18 21 27",
+    "midday_winning_numbers": "11 12 17 29 33"
+  },
+  {
+    "draw_date": "2026-01-02T00:00:00.000",
+    "evening_winning_numbers": "07 15 17 18 26",
+    "midday_winning_numbers": "10 11 18 22 28"
+  },
+  {
+    "draw_date": "2026-01-01T00:00:00.000",
+    "evening_winning_numbers": "06 08 09 16 27",
+    "midday_winning_numbers": "08 12 13 15 27"
+  },
+  {
+    "draw_date": "2025-12-31T00:00:00.000",
+    "evening_winning_numbers": "02 12 20 26 32",
+    "midday_winning_numbers": "13 17 18 27 34"
+  },
+  {
+    "draw_date": "2025-12-30T00:00:00.000",
+    "evening_winning_numbers": "07 08 09 13 25",
+    "midday_winning_numbers": "12 17 21 28 31"
+  },
+  {
+    "draw_date": "2025-12-29T00:00:00.000",
+    "evening_winning_numbers": "16 17 24 31 39",
+    "midday_winning_numbers": "06 23 26 27 32"
+  },
+  {
+    "draw_date": "2025-12-28T00:00:00.000",
+    "evening_winning_numbers": "13 19 25 28 30",
+    "midday_winning_numbers": "03 11 35 37 39"
+  },
+  {
+    "draw_date": "2025-12-27T00:00:00.000",
+    "evening_winning_numbers": "16 17 24 28 30",
+    "midday_winning_numbers": "04 06 12 21 30"
+  },
+  {
+    "draw_date": "2025-12-26T00:00:00.000",
+    "evening_winning_numbers": "06 10 22 29 32",
+    "midday_winning_numbers": "07 10 15 22 29"
+  },
+  {
+    "draw_date": "2025-12-25T00:00:00.000",
+    "evening_winning_numbers": "17 24 26 27 29",
+    "midday_winning_numbers": "05 07 09 22 32"
+  },
+  {
+    "draw_date": "2025-12-24T00:00:00.000",
+    "evening_winning_numbers": "12 20 22 32 36",
+    "midday_winning_numbers": "08 14 17 19 33"
+  },
+  {
+    "draw_date": "2025-12-23T00:00:00.000",
+    "evening_winning_numbers": "11 14 15 25 32",
+    "midday_winning_numbers": "05 09 20 24 39"
+  },
+  {
+    "draw_date": "2025-12-22T00:00:00.000",
+    "evening_winning_numbers": "03 14 24 28 33",
+    "midday_winning_numbers": "02 16 19 25 34"
+  },
+  {
+    "draw_date": "2025-12-21T00:00:00.000",
+    "evening_winning_numbers": "04 20 28 29 31",
+    "midday_winning_numbers": "11 16 19 24 25"
+  },
+  {
+    "draw_date": "2025-12-20T00:00:00.000",
+    "evening_winning_numbers": "13 24 31 33 37",
+    "midday_winning_numbers": "01 17 26 31 37"
+  }
+]
