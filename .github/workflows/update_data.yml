@@ -9,14 +9,14 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: 📥 Baixando o Código
-        uses: actions/checkout@v3
+    
+     - name: 📥 Baixando o Código
+        uses: actions/checkout@v4  # <-- Mudou para v4
 
       - name: ⚙️ Preparando o Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4 # <-- Mudou para v4
         with:
-          node-version: '20'
-
+          node-version: '22'       # <-- Mudou para 22
       - name: 📦 Instalando Pacotes
         run: npm install
 
