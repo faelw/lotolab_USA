@@ -1,6 +1,20 @@
 {
-  "updated_at": "2026-04-02T11:51:56.789Z",
+  "updated_at": "2026-04-02T23:41:32.977Z",
   "games": [
+    {
+      "id": "mega_millions",
+      "name": "Mega Millions",
+      "date": "2026-03-31T00:00:00.000",
+      "numbers": [
+        "18",
+        "35",
+        "45",
+        "60",
+        "65"
+      ],
+      "extra": "17",
+      "jackpot": "TBA"
+    },
     {
       "id": "powerball",
       "name": "Powerball",
@@ -86,6 +100,31 @@
       ],
       "extra": null,
       "jackpot": "$500,000"
+    },
+    {
+      "id": "numbers",
+      "name": "Numbers",
+      "date": "2026-04-01T00:00:00.000",
+      "numbers": [
+        "8",
+        "2",
+        "4"
+      ],
+      "extra": null,
+      "jackpot": "$500 Max"
+    },
+    {
+      "id": "win_4",
+      "name": "Win 4",
+      "date": "2026-04-01T00:00:00.000",
+      "numbers": [
+        "9",
+        "6",
+        "8",
+        "1"
+      ],
+      "extra": null,
+      "jackpot": "$5,000 Max"
     }
   ]
 }
