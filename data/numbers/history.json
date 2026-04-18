@@ -1,5 +1,12 @@
 [
   {
+    "draw_date": "2026-04-17T00:00:00.000",
+    "midday_daily": "604",
+    "evening_daily": "270",
+    "midday_win_4": "5081",
+    "evening_win_4": "2100"
+  },
+  {
     "draw_date": "2026-04-16T00:00:00.000",
     "midday_daily": "825",
     "evening_daily": "793",
@@ -691,12 +698,5 @@
     "evening_daily": "732",
     "midday_win_4": "6729",
     "evening_win_4": "6957"
-  },
-  {
-    "draw_date": "2026-01-07T00:00:00.000",
-    "midday_daily": "916",
-    "evening_daily": "286",
-    "midday_win_4": "6118",
-    "evening_win_4": "5927"
   }
 ]
