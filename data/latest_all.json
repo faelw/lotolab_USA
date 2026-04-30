@@ -1,20 +1,6 @@
 {
-  "updated_at": "2026-04-29T12:20:08.705Z",
+  "updated_at": "2026-04-30T00:00:49.910Z",
   "games": [
-    {
-      "id": "mega_millions",
-      "name": "Mega Millions",
-      "date": "2026-04-28T00:00:00.000",
-      "numbers": [
-        "14",
-        "36",
-        "41",
-        "47",
-        "66"
-      ],
-      "extra": "15",
-      "jackpot": "$ 100 million"
-    },
     {
       "id": "powerball",
       "name": "Powerball",
