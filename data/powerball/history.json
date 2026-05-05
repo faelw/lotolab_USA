@@ -1,5 +1,10 @@
 [
   {
+    "draw_date": "2026-05-04T00:00:00.000",
+    "winning_numbers": "30 36 42 60 63 13",
+    "multiplier": "2"
+  },
+  {
     "draw_date": "2026-05-02T00:00:00.000",
     "winning_numbers": "25 37 42 52 65 14",
     "multiplier": "3"
@@ -492,11 +497,6 @@
   {
     "draw_date": "2025-09-15T00:00:00.000",
     "winning_numbers": "14 15 32 42 49 01",
-    "multiplier": "2"
-  },
-  {
-    "draw_date": "2025-09-13T00:00:00.000",
-    "winning_numbers": "28 37 42 50 53 19",
     "multiplier": "2"
   }
 ]
