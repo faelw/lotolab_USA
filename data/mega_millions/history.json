@@ -1,5 +1,10 @@
 [
   {
+    "draw_date": "2026-05-15T00:00:00.000",
+    "winning_numbers": "17 23 25 52 61",
+    "mega_ball": "03"
+  },
+  {
     "draw_date": "2026-05-12T00:00:00.000",
     "winning_numbers": "17 32 35 40 47",
     "mega_ball": "17"
@@ -492,11 +497,6 @@
   {
     "draw_date": "2025-06-03T00:00:00.000",
     "winning_numbers": "16 24 29 36 45",
-    "mega_ball": "13"
-  },
-  {
-    "draw_date": "2025-05-30T00:00:00.000",
-    "winning_numbers": "02 28 37 38 58",
     "mega_ball": "13"
   }
 ]
