@@ -1,34 +1,6 @@
 {
-  "updated_at": "2026-05-31T12:14:32.189Z",
+  "updated_at": "2026-06-01T00:11:35.913Z",
   "games": [
-    {
-      "id": "mega_millions",
-      "name": "Mega Millions",
-      "date": "2026-05-29T00:00:00.000",
-      "numbers": [
-        "19",
-        "24",
-        "47",
-        "59",
-        "65"
-      ],
-      "extra": "07",
-      "jackpot": "TBA"
-    },
-    {
-      "id": "powerball",
-      "name": "Powerball",
-      "date": "2026-05-30T00:00:00.000",
-      "numbers": [
-        "01",
-        "27",
-        "35",
-        "44",
-        "52"
-      ],
-      "extra": "12",
-      "jackpot": "$217 Million"
-    },
     {
       "id": "cash4life",
       "name": "Cash4Life",
