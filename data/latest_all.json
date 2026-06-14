@@ -1,4 +1,129 @@
 {
-  "updated_at": "2026-06-14T00:14:06.091Z",
-  "games": []
+  "updated_at": "2026-06-14T13:00:49.041Z",
+  "games": [
+    {
+      "id": "mega_millions",
+      "name": "Mega Millions",
+      "date": "2026-06-12T00:00:00.000",
+      "numbers": [
+        "09",
+        "17",
+        "24",
+        "39",
+        "51"
+      ],
+      "extra": "03",
+      "jackpot": "TBA"
+    },
+    {
+      "id": "powerball",
+      "name": "Powerball",
+      "date": "2026-06-13T00:00:00.000",
+      "numbers": [
+        "03",
+        "13",
+        "44",
+        "50",
+        "53"
+      ],
+      "extra": "02",
+      "jackpot": "TBA"
+    },
+    {
+      "id": "cash4life",
+      "name": "Cash4Life",
+      "date": "2026-02-21T00:00:00.000",
+      "numbers": [
+        "20",
+        "25",
+        "30",
+        "52",
+        "55"
+      ],
+      "extra": "04",
+      "jackpot": "$1,000/Day"
+    },
+    {
+      "id": "take5",
+      "name": "Take 5",
+      "date": "2026-06-13T00:00:00.000",
+      "numbers": [
+        "05",
+        "12",
+        "20",
+        "28",
+        "34"
+      ],
+      "extra": null,
+      "jackpot": "Pari-Mutuel"
+    },
+    {
+      "id": "ny_lotto",
+      "name": "NY Lotto",
+      "date": "2026-06-13T00:00:00.000",
+      "numbers": [
+        "08",
+        "10",
+        "18",
+        "26",
+        "54",
+        "55"
+      ],
+      "extra": null,
+      "jackpot": "TBA"
+    },
+    {
+      "id": "pick_10",
+      "name": "Pick 10",
+      "date": "2026-06-13T00:00:00.000",
+      "numbers": [
+        "04",
+        "08",
+        "09",
+        "11",
+        "12",
+        "18",
+        "23",
+        "31",
+        "37",
+        "38",
+        "41",
+        "48",
+        "56",
+        "57",
+        "59",
+        "67",
+        "68",
+        "70",
+        "73",
+        "80"
+      ],
+      "extra": null,
+      "jackpot": "$500,000"
+    },
+    {
+      "id": "numbers",
+      "name": "Numbers",
+      "date": "2026-06-13T00:00:00.000",
+      "numbers": [
+        "3",
+        "9",
+        "2"
+      ],
+      "extra": null,
+      "jackpot": "$500 Max"
+    },
+    {
+      "id": "win_4",
+      "name": "Win 4",
+      "date": "2026-06-13T00:00:00.000",
+      "numbers": [
+        "7",
+        "8",
+        "5"
+      ],
+      "extra": null,
+      "jackpot": "$5,000 Max"
+    }
+  ]
 }
