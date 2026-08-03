@@ -1,5 +1,19 @@
 [
   {
+    "draw_date": "2026-08-02T00:00:00.000",
+    "midday_daily": "78",
+    "evening_daily": "246",
+    "midday_win_4": "5922",
+    "evening_win_4": "9388"
+  },
+  {
+    "draw_date": "2026-08-01T00:00:00.000",
+    "midday_daily": "276",
+    "evening_daily": "555",
+    "midday_win_4": "813",
+    "evening_win_4": "5922"
+  },
+  {
     "draw_date": "2026-07-31T00:00:00.000",
     "midday_daily": "243",
     "evening_daily": "848",
@@ -684,19 +698,5 @@
     "evening_daily": "95",
     "midday_win_4": "3392",
     "evening_win_4": "3825"
-  },
-  {
-    "draw_date": "2026-04-24T00:00:00.000",
-    "midday_daily": "195",
-    "evening_daily": "55",
-    "midday_win_4": "5360",
-    "evening_win_4": "4965"
-  },
-  {
-    "draw_date": "2026-04-23T00:00:00.000",
-    "midday_daily": "985",
-    "evening_daily": "470",
-    "midday_win_4": "6200",
-    "evening_win_4": "7657"
   }
 ]
