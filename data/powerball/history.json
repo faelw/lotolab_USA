@@ -1,5 +1,11 @@
 [
   {
+    "draw_date": "2026-09-09T00:00:00.000",
+    "winning_numbers": "09 40 42 55 65 23",
+    "multiplier": "2",
+    "double_play_winning_numbers": "32 33 58 62 69 18"
+  },
+  {
     "draw_date": "2026-09-07T00:00:00.000",
     "winning_numbers": "15 19 28 39 56 03",
     "multiplier": "3",
@@ -535,10 +541,5 @@
     "draw_date": "2026-01-21T00:00:00.000",
     "winning_numbers": "11 26 27 53 55 12",
     "multiplier": "2"
-  },
-  {
-    "draw_date": "2026-01-19T00:00:00.000",
-    "winning_numbers": "05 28 34 37 55 17",
-    "multiplier": "3"
   }
 ]
