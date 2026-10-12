@@ -63,7 +63,7 @@ async function fetchJackpot(id) {
         if (id === 'mega_millions') {
             const html = await fetchWithRetry('https://www.megamillions.com/', false);
             const $ = cheerio.load(html);
-            let val = $('.home-next-drawing-est-jackpot').text().trim() \vert{}\vert{}$('.est-jackpot').text().trim();
+            let val = $('.home-next-drawing-est-jackpot').text().trim() || $('.est-jackpot').text().trim();
             
             if (!val) {
                 const match = html.match(/\$([0-9]+(?:,[0-9]{3})*(?:\.[0-9]+)?)\s*(Million|Billion)/i);
@@ -90,7 +90,7 @@ async function fetchJackpot(id) {
         if (id === 'ny_lotto') {
             const html = await fetchWithRetry('https://nylottery.ny.gov/draw-games/new-york-lotto', false);
             const $ = cheerio.load(html);
-            let val = $('.game-top-prize').text().trim() \vert{}\vert{}$('.prize-amount').text().trim();
+            let val = $('.game-top-prize').text().trim() || $('.prize-amount').text().trim();
             return val || 'TBA'; 
         }
 
