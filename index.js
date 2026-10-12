@@ -39,7 +39,6 @@ async function fetchWithRetry(url, isJson = false) {
             
             const dataStr = typeof data === 'string' ? data : JSON.stringify(data);
             
-            // Verifica se a resposta foi uma página de bloqueio do Cloudflare
             if (dataStr.includes('Just a moment...') || dataStr.includes('cf-browser-verification')) {
                 throw new Error("Bloqueio Cloudflare detectado");
             }
@@ -66,7 +65,6 @@ async function fetchJackpot(id) {
             const $ = cheerio.load(html);
             let val = $('.home-next-drawing-est-jackpot').text().trim() \vert{}\vert{}$('.est-jackpot').text().trim();
             
-            // Fallback Regex: Se a classe CSS tiver mudado, procura no texto puro
             if (!val) {
                 const match = html.match(/\$([0-9]+(?:,[0-9]{3})*(?:\.[0-9]+)?)\s*(Million|Billion)/i);
                 if (match) val = `$${match[1]} ${match[2]}`;
@@ -76,12 +74,10 @@ async function fetchJackpot(id) {
         
         if (id === 'powerball') {
             try {
-                // Tenta API primeiro
                 const data = await fetchWithRetry('https://powerball.com/api/v1/estimates/powerball?_format=json', true);
                 if (Array.isArray(data) && data.length > 0 && data[0].annuity_expected) return data[0].annuity_expected;
                 if (data && !Array.isArray(data) && data.annuity_expected) return data.annuity_expected;
             } catch (e) {
-                // Fallback: Raspa a página HTML se a API estiver bloqueada
                 console.log(`      ↳ API falhou, raspando HTML da Powerball...`);
                 const html = await fetchWithRetry('https://powerball.com/', false);
                 const $ = cheerio.load(html);
@@ -181,4 +177,33 @@ async function main() {
                     jackpot = oldData[lotto.id]; 
                 }
                 
-                const { nums, extra } = parseDraw(
+                const { nums, extra } = parseDraw(last, lotto.id);
+
+                latestAll.push({
+                    id: lotto.id,
+                    name: lotto.name,
+                    date: last.draw_date,
+                    numbers: nums,
+                    extra: extra,
+                    jackpot: jackpot
+                });
+                
+                console.log(`✅ ${lotto.name} concluído! (Jackpot: ${jackpot})`);
+            }
+            
+            await delay(2000);
+            
+        } catch (err) { 
+            console.error(`❌ Erro em ${lotto.name}: ${err.message}`); 
+        }
+    }
+
+    await fs.writeFile(latestAllPath, JSON.stringify({
+        updated_at: new Date().toISOString(),
+        games: latestAll
+    }, null, 2));
+
+    console.log("\n🏁 ARQUIVOS GERADOS E ATUALIZADOS!");
+}
+
+main();
