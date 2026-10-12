@@ -139,3 +139,46 @@ function parseDraw(draw, id) {
 // 4. EXECUÇÃO PRINCIPAL
 async function main() {
     console.log("🚀 LIGANDO MOTOR LOTOLAB EUA (VERSÃO BLINDADA/MULTI-PROXY)...");
+    const dataDir = path.join(__dirname, 'data');
+    await fs.mkdir(dataDir, { recursive: true });
+    
+    let oldData = {};
+    const latestAllPath = path.join(dataDir, 'latest_all.json');
+    try {
+        const oldFile = await fs.readFile(latestAllPath, 'utf8');
+        const parsed = JSON.parse(oldFile);
+        if (parsed && parsed.games) {
+            parsed.games.forEach(game => {
+                oldData[game.id] = game.jackpot;
+            });
+        }
+    } catch (e) {}
+
+    const latestAll = [];
+
+    const isInvalidJackpot = (val) => {
+        if (!val || val.trim() === '') return true;
+        const lower = val.toLowerCase();
+        return lower.includes('tba') || lower.includes('tbd') || lower.includes('pending') || lower.includes('rolling') || lower.includes('check');
+    };
+
+    for (const lotto of lotteries) {
+        try {
+            console.log(`\n📡 Processando: ${lotto.name}...`);
+            const res = await axios.get(lotto.url, { timeout: 15000 });
+            const history = res.data;
+
+            if (history && history.length > 0) {
+                const lottoDir = path.join(dataDir, lotto.id);
+                await fs.mkdir(lottoDir, { recursive: true });
+                await fs.writeFile(path.join(lottoDir, 'history.json'), JSON.stringify(history, null, 2));
+
+                const last = history[0];
+                let jackpot = await fetchJackpot(lotto.id);
+                
+                if (isInvalidJackpot(jackpot) && oldData[lotto.id] && !isInvalidJackpot(oldData[lotto.id])) {
+                    console.log(`🛡️  Usando jackpot do backup: ${oldData[lotto.id]}`);
+                    jackpot = oldData[lotto.id]; 
+                }
+                
+                const { nums, extra } = parseDraw(
