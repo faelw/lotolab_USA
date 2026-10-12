@@ -7,7 +7,6 @@ const cheerio = require('cheerio');
 const lotteries = [
     { id: 'mega_millions', name: 'Mega Millions', url: 'https://data.ny.gov/resource/5xaw-6ayf.json?$limit=100&$order=draw_date%20DESC' },
     { id: 'powerball', name: 'Powerball', url: 'https://data.ny.gov/resource/d6yy-54nr.json?$limit=100&$order=draw_date%20DESC' },
-    // ATUALIZADO: Cash4Life substituído por Millionaire for Life
     { id: 'millionaire_for_life', name: 'Millionaire for Life', url: 'https://data.ny.gov/resource/kwxv-fwze.json?$limit=100&$order=draw_date%20DESC' },
     { id: 'take5', name: 'Take 5', url: 'https://data.ny.gov/resource/dg63-4siq.json?$limit=100&$order=draw_date%20DESC' },
     { id: 'ny_lotto', name: 'NY Lotto', url: 'https://data.ny.gov/resource/6nbc-h7bj.json?$limit=100&$order=draw_date%20DESC' },
@@ -18,34 +17,50 @@ const lotteries = [
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
-// HEADERS REFORÇADOS
 const scrapHeaders = {
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
     'Accept-Language': 'en-US,en;q=0.5',
-    'Cache-Control': 'no-cache',
-    'Pragma': 'no-cache'
+    'Cache-Control': 'no-cache'
 };
+
+// --- NOVO: FUNÇÃO ANTI-CLOUDFLARE COM PROXY ---
+async function fetchWithProxy(url, isJson = false) {
+    try {
+        // Tentativa 1: Direto (Pode falhar no GitHub Actions)
+        const { data } = await axios.get(url, { headers: scrapHeaders, timeout: 8000 });
+        return data;
+    } catch (e) {
+        console.log(`   ⚠️ Acesso bloqueado pelo Cloudflare. A tentar via Proxy AllOrigins...`);
+        // Tentativa 2: Via AllOrigins Proxy (Contorna IPs de Data Center)
+        const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`;
+        const { data } = await axios.get(proxyUrl, { timeout: 12000 });
+        
+        if (!data || !data.contents) throw new Error("Proxy também falhou");
+        
+        if (isJson) {
+            return JSON.parse(data.contents);
+        }
+        return data.contents;
+    }
+}
 
 // 2. MOTOR DE JACKPOTS CORRIGIDO
 async function fetchJackpot(id) {
     try {
-        // ATUALIZADO: Novo prémio fixo para Millionaire for Life
         if (id === 'millionaire_for_life') return '$1M/Year for Life';
-        
         if (id === 'pick_10') return '$500,000';
         if (id === 'numbers') return '$500 Max';
         if (id === 'win_4') return '$5,000 Max';
         if (id === 'take5') return 'Pari-Mutuel';
 
         if (id === 'mega_millions') {
-            const { data } = await axios.get('https://www.megamillions.com/', { headers: scrapHeaders, timeout: 10000 });
-            return cheerio.load(data)('.home-next-drawing-est-jackpot').text().trim() || 'TBA';
+            const html = await fetchWithProxy('https://www.megamillions.com/', false);
+            return cheerio.load(html)('.home-next-drawing-est-jackpot').text().trim() || 'TBA';
         }
         
         if (id === 'powerball') {
-            const { data } = await axios.get('https://powerball.com/api/v1/estimates/powerball?_format=json', { headers: scrapHeaders, timeout: 10000 });
-            
+            const data = await fetchWithProxy('https://powerball.com/api/v1/estimates/powerball?_format=json', true);
             if (Array.isArray(data) && data.length > 0 && data[0].annuity_expected) {
                 return data[0].annuity_expected;
             } else if (data && !Array.isArray(data) && data.annuity_expected) {
@@ -55,13 +70,13 @@ async function fetchJackpot(id) {
         }
 
         if (id === 'ny_lotto') {
-            const { data } = await axios.get('https://nylottery.ny.gov/draw-games/new-york-lotto', { headers: scrapHeaders, timeout: 10000 });
-            return cheerio.load(data)('.game-top-prize').text().trim() || 'TBA'; 
+            const html = await fetchWithProxy('https://nylottery.ny.gov/draw-games/new-york-lotto', false);
+            return cheerio.load(html)('.game-top-prize').text().trim() || 'TBA'; 
         }
 
         return 'N/A';
     } catch (e) {
-        console.log(`[!] Aviso: Falha na extração de ${id} (Erro de rede ou Cloudflare). Retornando TBA.`);
+        console.log(`[!] Falha total na extração de ${id}. Retornando TBA.`);
         return 'TBA';
     }
 }
@@ -90,7 +105,6 @@ function parseDraw(draw, id) {
     else {
         nums = (draw.winning_numbers || "").toString().trim().split(/\s+/);
         if (id === 'mega_millions') extra = draw.mega_ball || null;
-        // ATUALIZADO: Extração da bola extra mapeada para o novo ID
         else if (id === 'millionaire_for_life') extra = draw.cash_ball || null;
         else if (id === 'ny_lotto') extra = draw.bonus_num || null;
     }
@@ -100,11 +114,10 @@ function parseDraw(draw, id) {
 
 // 4. EXECUÇÃO PRINCIPAL
 async function main() {
-    console.log("🚀 LIGANDO MOTOR LOTOLAB EUA (8 LOTERIAS)...");
+    console.log("🚀 LIGANDO MOTOR LOTOLAB EUA COM PROXY ANTI-CLOUDFLARE...");
     const dataDir = path.join(__dirname, 'data');
     await fs.mkdir(dataDir, { recursive: true });
     
-    // --- LER ARQUIVO ANTIGO COMO BACKUP ---
     let oldData = {};
     const latestAllPath = path.join(dataDir, 'latest_all.json');
     try {
@@ -117,11 +130,12 @@ async function main() {
         }
         console.log("💾 Histórico anterior carregado para backup de segurança.");
     } catch (e) {
-        console.log("📝 Nenhum histórico anterior encontrado (ou arquivo vazio).");
+        console.log("📝 Nenhum histórico anterior encontrado.");
     }
 
     const latestAll = [];
 
+    // Proteção para não herdar lixo ("TBA") do ficheiro velho
     const isInvalidJackpot = (val) => {
         if (!val || val.trim() === '') return true;
         const lower = val.toLowerCase();
@@ -142,10 +156,13 @@ async function main() {
                 const last = history[0];
                 let jackpot = await fetchJackpot(lotto.id);
                 
-                // --- A MÁGICA DE RECUPERAÇÃO CORRIGIDA ---
+                // Mágica de recuperação reforçada
                 if (isInvalidJackpot(jackpot) && oldData[lotto.id] && !isInvalidJackpot(oldData[lotto.id])) {
-                    console.log(`🛡️ Scrap falhou ou retornou '${jackpot}'. Restaurando jackpot anterior: ${oldData[lotto.id]}`);
+                    console.log(`🛡️ Scrap falhou. Restaurando jackpot útil anterior: ${oldData[lotto.id]}`);
                     jackpot = oldData[lotto.id]; 
+                } else if (isInvalidJackpot(jackpot)) {
+                    // Se falhou e o histórico também era inválido (o seu caso atual)
+                    console.log(`⚠️ Scrap falhou e histórico anterior é inválido. Jackpot continuará 'TBA' nesta rodada.`);
                 }
                 
                 const { nums, extra } = parseDraw(last, lotto.id);
