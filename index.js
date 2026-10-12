@@ -62,7 +62,7 @@ async function fetchJackpot(id) {
 
         if (id === 'mega_millions') {
             const html = await fetchWithRetry('https://www.megamillions.com/', false);
-            const doc = cheerio.load(html); // Corrigido para doc
+            const doc = cheerio.load(html);
             
             let val = doc('.home-next-drawing-est-jackpot').text().trim();
             if (!val) {
@@ -98,14 +98,24 @@ async function fetchJackpot(id) {
         }
 
         if (id === 'ny_lotto') {
-            const html = await fetchWithRetry('https://nylottery.ny.gov/draw-games/new-york-lotto', false);
+            // Site oficial é bloqueado por JavaScript/React. Redirecionado para portal HTML fiável.
+            const html = await fetchWithRetry('https://www.lotteryusa.com/new-york/lotto/', false);
             const doc = cheerio.load(html);
             
-            let val = doc('.game-top-prize').text().trim();
+            let val = doc('.c-result-card__jackpot').text().trim();
+            
             if (!val) {
-                val = doc('.prize-amount').text().trim();
+                const match = html.match(/\$([0-9]+(?:,[0-9]{3})*(?:\.[0-9]+)?)\s*(Million|Billion)/i);
+                if (match) {
+                    val = '$' + match[1] + ' ' + match[2];
+                }
             }
-            return val || 'TBA'; 
+            
+            if (val) {
+                // Remove prefixos como "Est. Jackpot: " para limpar o resultado
+                return val.replace(/Est\.?\s*Jackpot:?\s*/i, '').trim();
+            }
+            return 'TBA'; 
         }
 
         return 'N/A';
