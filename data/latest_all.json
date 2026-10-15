@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T15:45:53.003Z",
+  "updated_at": "2026-10-15T01:20:18.746Z",
   "games": [
     {
       "id": "mega_millions",
@@ -70,7 +70,7 @@
         "58"
       ],
       "extra": null,
-      "jackpot": "$10.2 Million"
+      "jackpot": "$10.7 Million"
     },
     {
       "id": "pick_10",
