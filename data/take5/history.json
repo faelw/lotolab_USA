@@ -1,5 +1,10 @@
 [
   {
+    "draw_date": "2026-11-11T00:00:00.000",
+    "evening_winning_numbers": "04 07 08 33 39",
+    "midday_winning_numbers": "20 30 35 36 38"
+  },
+  {
     "draw_date": "2026-11-10T00:00:00.000",
     "evening_winning_numbers": "12 24 29 31 38",
     "midday_winning_numbers": "14 19 20 23 38"
@@ -493,10 +498,5 @@
     "draw_date": "2026-08-04T00:00:00.000",
     "evening_winning_numbers": "11 13 18 26 33",
     "midday_winning_numbers": "02 04 18 29 32"
-  },
-  {
-    "draw_date": "2026-08-03T00:00:00.000",
-    "evening_winning_numbers": "17 19 20 24 34",
-    "midday_winning_numbers": "05 11 22 31 33"
   }
 ]
