@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T22:30:35.289Z",
+  "updated_at": "2026-11-24T06:52:10.588Z",
   "games": [
     {
       "id": "mega_millions",
@@ -27,7 +27,7 @@
         "45"
       ],
       "extra": "22",
-      "jackpot": "$20 Million$8.4 Million"
+      "jackpot": "$31 Million$13.0 Million"
     },
     {
       "id": "millionaire_for_life",
